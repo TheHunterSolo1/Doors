@@ -1,285 +1,354 @@
-local X0O0O0O0O0,OO0X0O0O0X,OX00O0X0O0=0,{},{}
-local function qQ0Q0Q0Q(n) local r=0 for i=1,n do r=(r+i*1234567)%98765 end return r end
-local function xXxXxX(s) local t="" for i=1,#s do t=t..string.char(((s:byte(i)+i*7)%93)+33) end return t end
-for i=1,200 do OO0X0O0O0X[i]=xXxXxX(tostring(qQ0Q0Q0Q(i))) end
-for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or "" local y=OX00O0X0O0[i] or 0 local z=string.reverse(x)..tostring(y) end
-for i=1,50 do for j=1,50 do for k=1,10 do local t=(i*j*k*777)%55555 end end end
-for i=1,75 do local c=0 for j=1,40 do if(j%2==0)then c=c+j else c=c-j end end end
-for i=1,200 do local s=OO0X0O0O0X[(i%199)+1] or "" local r=OX00O0X0O0[(i%149)+1] or 0 local q=(s..tostring(r)):reverse() end
-for i=1,60 do local h=0 for j=1,60 do for k=1,20 do h=(h+i*j*k)%999999 end end end
-for i=1,120 do local b="" for j=1,25 do b=b..string.char(((i*j*55)%93)+33) end end
-for i=1,130 do local n=qQ0Q0Q0Q(i) local m=xXxXxX(tostring(n)) end
-for i=1,160 do local v=0 for j=1,70 do if(j%3==0)then v=v+j*33 else v=v-j*11 end end end
-for i=1,180 do local g=OO0X0O0O0X[(i%180)+1] or "" local k=OX00O0X0O0[(i%140)+1] or 0 local l=g..tostring(k) end
-for i=1,200 do local p=0 for j=1,50 do for k=1,10 do p=(p+j*k*123)%777777 end end end
-for i=1,140 do local f="" for j=1,15 do f=f..string.char(((i*j*99)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*3) local t=xXxXxX(tostring(s)) end
-for i=1,90 do local x=0 for j=1,30 do if(j%5==0)then x=x+j*7 else x=x-j end end end
-for i=1,300 do local u=OO0X0O0O0X[(i%190)+1] or "" local v=OX00O0X0O0[(i%170)+1] or 0 local w=string.reverse(u..tostring(v)) end
-for i=1,250 do local r=0 for j=1,25 do for k=1,25 do r=(r+j*k*77)%888888 end end end
-for i=1,110 do local z="" for j=1,10 do z=z..string.char(((i*j*13)%93)+33) end end
-for i=1,175 do local d=qQ0Q0Q0Q(i*11) local c=xXxXxX(tostring(d)) end
-for i=1,60 do local y=0 for j=1,90 do if(j%4==0)then y=y+j*22 else y=y-j*3 end end end
-for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) local t=xXxXxX(tostring(s)) end
-for i=1,150 do local z=0 for j=1,30 do if(j%6==0)then z=z+j*5 else z=z-j*2 end end end
-for i=1,190 do local x=OO0X0O0O0X[(i%150)+1] or "" local y=OX00O0X0O0[(i%130)+1] or 0 local z=string.reverse(x..tostring(y)) end
-for i=1,210 do local q=0 for j=1,35 do for k=1,15 do q=(q+j*k*99)%777777 end end end
-for i=1,160 do local m="" for j=1,20 do m=m..string.char(((i*j*21)%93)+33) end end
-for i=1,170 do local p=qQ0Q0Q0Q(i*19) local o=xXxXxX(tostring(p)) end
-for i=1,100 do local u=0 for j=1,25 do if(j%7==0)then u=u+j*9 else u=u-j*4 end end end
-for i=1,300 do local v=OO0X0O0O0X[(i%140)+1] or "" local w=OX00O0X0O0[(i%110)+1] or 0 local z=v..tostring(w) end
-for i=1,140 do local n=0 for j=1,45 do for k=1,12 do n=(n+j*k*55)%666666 end end end
-for i=1,120 do local k="" for j=1,22 do k=k..string.char(((i*j*77)%93)+33) end end
-for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""
-for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""for i=1,150 do OX00O0X0O0[i]=qQ0Q0Q0Q(i*7) end
-for i=1,250 do local a=(i*3333)%77777 local b=xXxXxX(tostring(a)) end
-for i=1,100 do local s="" for j=1,30 do s=s..string.char(((i*j*77)%93)+33) end end
-for i=1,180 do local t=0 for j=1,50 do t=((t+j*13)%99999) end end
-for i=1,90 do local k=(i*987654321)%123456 local u=string.reverse(tostring(k)) local v=tonumber(u) or 0 end
-for i=1,300 do local z=OO0X0O0O0X[(i%200)+1] or "" local w=OX00O0X0O0[(i%150)+1] or 0 local d=z..tostring(w) end
-local function mM0M0M0(a,b,c) local r=(a or 1)+(b or 2)*(c or 3) for k=1,10 do r=(r*333)%88888 end return tostring(r):reverse() end
-for i=1,220 do mM0M0M0(i,i*2,i*3) end
-for i=1,100 do local p="" for j=1,20 do p=p..string.char(((i+j*33)%93)+33) end end
-for i=1,150 do local x=OO0X0O0O0X[i] or ""
-for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) for i=1,180 do local a=OO0X0O0O0X[(i%160)+1] or "" local b=OX00O0X0O0[(i%120)+1] or 0 local c=a..tostring(b) end
-for i=1,200 do local d=0 for j=1,40 do for k=1,20 do d=(d+j*k*111)%999999 end end end
-for i=1,125 do local f="" for j=1,18 do f=f..string.char(((i*j*77)%93)+33) end end
-for i=1,200 do local s=qQ0Q0Q0Q(i*17) 
-
+local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end local g=2
+local f=false function y print(g) end 
 
 
 
